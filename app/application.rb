@@ -7,6 +7,6 @@ class Application
 
     time_of_day >= 12 ? resp.write "Good Morning!" : resp.write "Good Afternoon!"
 
-    resp.finish 
+    resp.finish
   end
 end
