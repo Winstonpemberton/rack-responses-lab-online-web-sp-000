@@ -9,12 +9,6 @@ class Application
     afternoon_message = resp.write "Good Afternoon!"
 
     time_of_day <= 12 ? morning_message : afternoon_message
-
-    # if time_of_day <= 12
-    #   resp.write "Good Morning!"
-    # else
-    #   resp.write "Good Afternoon!"
-    # end
     resp.finish
   end
 end
