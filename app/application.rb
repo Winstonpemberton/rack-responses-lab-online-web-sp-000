@@ -5,7 +5,7 @@ class Application
 
     time_of_day = Time.now.hour
 
-    if time_of_day >= 12
+    if time_of_day <= 12
       resp.write "Good Morning!"
     else
       resp.write "Good Afternoon!"
